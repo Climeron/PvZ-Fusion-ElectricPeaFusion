@@ -42,7 +42,7 @@ namespace ElectricPeaFusion
     public static class AssemblyInfo
     {
         public const string MODE_NAME = nameof(ElectricPeaFusion);
-        public const string VERSION = "214.0.0";
+        public const string VERSION = "215.0.0";
         public const string AUTHOR = "Climeron";
     }
 }
