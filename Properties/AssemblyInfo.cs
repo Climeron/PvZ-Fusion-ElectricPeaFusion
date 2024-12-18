@@ -2,7 +2,9 @@
 using System.Runtime.InteropServices;
 using MelonLoader;
 
-[assembly: MelonInfo(typeof(ElectricPeaFusion.Main), ElectricPeaFusion.AssemblyInfo.MODE_NAME, ElectricPeaFusion.AssemblyInfo.VERSION, ElectricPeaFusion.AssemblyInfo.AUTHOR)]
+[assembly: MelonInfo(typeof(ElectricPeaFusion.Main), ElectricPeaFusion.AssemblyInfo.MODE_NAME, ElectricPeaFusion.AssemblyInfo.VERSION, ElectricPeaFusion.AssemblyInfo.AUTHOR, ElectricPeaFusion.AssemblyInfo.DOWNLOAD_LINK)]
+[assembly: MelonGame("LanPiaoPiao", "PlantsVsZombiesRH")]
+[assembly: MelonAdditionalDependencies("ClimeronToolsForPvZ")]
 
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
@@ -42,7 +44,8 @@ namespace ElectricPeaFusion
     public static class AssemblyInfo
     {
         public const string MODE_NAME = nameof(ElectricPeaFusion);
-        public const string VERSION = "215.0.0";
+        public const string VERSION = "216.0.0";
         public const string AUTHOR = "Climeron";
+        public const string DOWNLOAD_LINK = "https://github.com/Climeron/PvZ-Fusion-ElectricPeaFusion";
     }
 }
